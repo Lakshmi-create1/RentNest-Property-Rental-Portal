@@ -1,0 +1,17 @@
+{
+  "name": "property-listing-rental-portal",
+  "version": "1.0.0",
+  "description": "Full-Stack Property Listing & Rental Portal (MERN Stack)",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "seed": "npm --prefix server run seed",
+    "create-admin": "npm --prefix server run create-admin",
+    "test:server": "npm --prefix server test",
+    "dev:server": "npm --prefix server start",
+    "dev:client": "npm --prefix client dev",
+    "build:client": "npm --prefix client build"
+  },
+  "keywords": ["mern", "real-estate", "property-rental", "full-stack", "react", "express", "mongodb"],
+  "author": "Full Stack Development Capstone",
+  "license": "ISC"
+}

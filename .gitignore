@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+
+# Uploaded temporary files (preserve folder with .gitkeep if desired)
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Logs and debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+
+# Additional project exclusions
+client/node_modules/
+server/node_modules/
+
+.env.*
+!.env.example
+
+coverage/
